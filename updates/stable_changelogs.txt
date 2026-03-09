@@ -1,0 +1,4 @@
+• Improve OTA implementations
+• Implemented Mutliple Nodes to balance load
+• Improve Bug Report
+• On clicking GDG refresh menu in menu section
