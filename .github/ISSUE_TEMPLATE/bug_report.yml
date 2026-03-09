@@ -1,0 +1,89 @@
+name: 🐞 Bug Report
+description: Report a bug in Dev Notes
+title: "[Bug]: "
+labels:
+  - bug
+assignees:
+  - kaif-00z
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🐞 Bug Report
+        Thanks for taking the time to report a bug! Please fill in the details below.
+
+  - type: input
+    id: app_version
+    attributes:
+      label: App Version
+      description: The version of Dev Notes you are using.
+      placeholder: "e.g. 1.0.2 (1)"
+    validations:
+      required: true
+
+  - type: input
+    id: android_version
+    attributes:
+      label: Android Version
+      description: The Android version running on your device.
+      placeholder: "e.g. Android 14"
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: Your device model.
+      placeholder: "e.g. Samsung Galaxy S24"
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of the bug.
+      placeholder: Describe the issue here...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Tap on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected Behavior
+      description: What you expected to happen.
+      placeholder: Describe what should happen...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: Actual Behavior
+      description: What actually happened instead.
+      placeholder: Describe what actually happens...
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain the problem.
+      placeholder: Drag and drop images here...
+    validations:
+      required: false
