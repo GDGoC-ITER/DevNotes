@@ -1,1 +1,7 @@
-• Initial Public Release
+• Added Android 17 (SDK 37) Support
+• Added Option To Change User Name
+• Fixes Some Issues in Update Section Page
+• Fixes Some Notification Issues
+• Rewritten PDF viewer implementation
+• Updated M3E to alpha17
+• Fixed some broken link and added WA channel link
