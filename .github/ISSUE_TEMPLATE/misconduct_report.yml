@@ -1,0 +1,53 @@
+name: ⚠️ Misconduct Report
+description: Report a misconduct incident in Dev Notes
+title: "[Misconduct]: "
+labels:
+  - misconduct
+assignees:
+  - kaif-00z
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ⚠️ Misconduct Report
+        Thanks for taking the time to report a misconduct incident! Please fill in the details below.
+
+  - type: textarea
+    id: misconduct_description
+    attributes:
+      label: Misconduct Description
+      description: A clear and concise description of the misconduct incident.
+      placeholder: Describe the issue here...
+    validations:
+      required: true
+
+  - type: textarea
+    id: soa_id
+    attributes:
+      label: SOA ID
+      description: Enter your SOA ID.
+      placeholder: Enter your SOA ID here...
+    validations:
+      required: True
+
+  - type: textarea
+    id: evidence  
+    attributes:
+      label: Evidence      
+      description: If applicable, add evidence to help explain the problem.
+      placeholder: Drag and drop images here...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: misconduct_consent
+    attributes:
+      label: Consent and acknowledgment
+      description: Please confirm the following before submitting this report.
+      options:
+        - label: I confirm that the information I provided is accurate to the best of my knowledge.
+          required: true
+        - label: I understand this report may be reviewed and kept as part of the moderation trail.
+          required: true
+        - label: I consent to the review of any attached evidence for investigation purposes.
+          required: true
