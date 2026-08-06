@@ -1,5 +1,4 @@
-• Updated major dependencies to the latest versions
-• Introduced magical animations with hidden interactive effects
-• Added support for predictive back gestures
+• Switched to native google auth
+• Add New Font
 • Many more features added but too lazy to list them
 • Significant performance enhancements and overall optimizations
