@@ -1,4 +1,8 @@
-• Switched to native google auth
-• Add New Font
-• Many more features added but too lazy to list them
-• Significant performance enhancements and overall optimizations
+• Updated major dependencies to the latest versions
+• Added search feature in pdf viewer (ocr)
+• Redesign attendance screen UI/UX
+• Fixed timetable fetch from soa portal
+• Fixed some screen transition issues
+• Removed unwanted screens and codes
+• Improved campus update screen
+• Improved some logics here and there
