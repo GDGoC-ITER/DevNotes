@@ -1,8 +1,4 @@
-• Updated major dependencies to the latest versions
-• Added search feature in pdf viewer (ocr)
-• Redesign attendance screen UI/UX
-• Fixed timetable fetch from soa portal
-• Fixed some screen transition issues
-• Removed unwanted screens and codes
-• Improved campus update screen
-• Improved some logics here and there
+• Added option to pin or drag the order of subjects as user want
+• Allow attendance tracker to count back date attendance as well
+• Allow user to change their registration number once a month
+• Rework on pdf viewer and rendering
