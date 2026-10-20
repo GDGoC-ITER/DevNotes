@@ -1,4 +1,2 @@
-• Added option to pin or drag the order of subjects as user want
-• Allow attendance tracker to count back date attendance as well
-• Allow user to change their registration number once a month
-• Rework on pdf viewer and rendering
+• Updated About Page & Added About our team
+• Fixed codeviewer to support all lang files to read
