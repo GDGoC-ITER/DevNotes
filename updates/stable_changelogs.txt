@@ -1,2 +1,2 @@
-• Updated About Page & Added About our team
-• Fixed codeviewer to support all lang files to read
+• Updated Some Major Dependencies & Things
+• Some Fixes & Optimization here and there
