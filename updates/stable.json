@@ -1,6 +1,6 @@
 {
-  "versionName": "2.3.0",
-  "versionCode": 230,
-  "downloadUrl": "https://github.com/GDGoC-ITER/DevNotes/releases/download/v2.3.0/app-release.apk",
-  "forceUpdate": true
+  "versionName": "2.3.2",
+  "versionCode": 232,
+  "downloadUrl": "https://github.com/GDGoC-ITER/DevNotes/releases/download/v2.3.2/app-release.apk",
+  "forceUpdate": false
 }

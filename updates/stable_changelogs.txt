@@ -1,2 +1,4 @@
-• Updated Some Major Dependencies & Things
-• Some Fixes & Optimization here and there
+• Support native PDF rendering for Android 5+
+• Share content to ai (claude, openai, gemini, perplexity)
+• Fixed some calculation bugs in attendance page
+• Fixed google login dialog not showing in some OEM (HyperOS specific versions)
